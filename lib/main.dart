@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_utils/widgets/string_util_demo.dart';
 import 'package:widget_utils/widgets/tab_bar.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)
             .copyWith(background: Colors.blueGrey[100]),
       ),
-      home: const TabBarDemo(),
+      home: const StringUtilDemo(),
     );
   }
 }
