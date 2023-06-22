@@ -7,6 +7,10 @@ Welcome to the All-in-One Flutter Widgets repository! This repository aims to pr
 - **10 Types of Tab Bar:** Explore different tab bar implementations to add versatile navigation options to your Flutter apps.
 - **Extensions Galore:** Discover a set of useful extensions for Flutter to simplify and streamline your code.
 
+
+## Demo
+<img src="https://github.com/vaidehi2701/widget_utils_2023/assets/55477266/452b57a1-2cfe-4d07-afca-745ec472d6a9" width="300" height="550" />
+
 ## Installation
 
 To use the widgets and extensions from this repository in your Flutter project, follow these steps:
