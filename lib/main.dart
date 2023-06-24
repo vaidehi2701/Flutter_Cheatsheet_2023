@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widget_utils/widgets/string_util_demo.dart';
-import 'package:widget_utils/widgets/tab_bar.dart';
+import 'package:widget_utils/widgets/slides.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)
             .copyWith(background: Colors.blueGrey[100]),
       ),
-      home: const StringUtilDemo(),
+      home: const CustomSlidersPage(),
     );
   }
 }
