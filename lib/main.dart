@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_utils/ui/ext_demo/int_util_demo.dart';
-import 'package:widget_utils/ui/widgets/res_bottom.dart';
-import 'package:widget_utils/ui/widgets/slides.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:widget_utils/ui/widgets/buttons.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,10 +17,11 @@ class MyApp extends StatelessWidget {
       title: 'Widget Utils 2023',
       theme: ThemeData(
         useMaterial3: true,
+         textTheme: GoogleFonts.poppinsTextTheme(), 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)
             .copyWith(background: Colors.blueGrey[100]),
       ),
-      home: const IntUtilDemo(),
+      home: const Buttons(),
     );
   }
 }
