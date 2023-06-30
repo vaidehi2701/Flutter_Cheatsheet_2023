@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:widget_utils/ui/widgets/buttons.dart';
+import 'package:widget_utils/ui/ext_demo/date_util_demo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)
             .copyWith(background: Colors.blueGrey[100]),
       ),
-      home: const Buttons(),
+      home: const DateUtilDemo(),
     );
   }
 }

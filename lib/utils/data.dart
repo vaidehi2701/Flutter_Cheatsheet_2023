@@ -52,3 +52,21 @@ final iconTextTabs = [
     text: "Settings",
   ),
 ];
+
+ final navBarItems = [
+    const BottomNavigationBarItem(
+      icon: Icon(Icons.home_outlined),
+      activeIcon: Icon(Icons.home_rounded),
+      label: 'Home',
+    ),
+    const BottomNavigationBarItem(
+      icon: Icon(Icons.access_alarm_outlined),
+      activeIcon: Icon(Icons.access_alarm_rounded),
+      label: 'Search',
+    ),
+    const BottomNavigationBarItem(
+      icon: Icon(Icons.person_outline_rounded),
+      activeIcon: Icon(Icons.person_rounded),
+      label: 'Profile',
+    ),
+  ];

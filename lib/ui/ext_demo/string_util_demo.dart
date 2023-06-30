@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:widget_utils/extension/string_utils.dart';
+import 'package:widget_utils/extensions/string_utils.dart';
 
 class StringUtilDemo extends StatefulWidget {
   const StringUtilDemo({super.key});
