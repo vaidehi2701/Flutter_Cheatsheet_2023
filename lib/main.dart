@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:widget_utils/provider/font_size_provider.dart';
 import 'package:widget_utils/ui/screens/dynamic_fontsize.dart';
+import 'package:widget_utils/ui/widgets/dropdown.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       ),
       home: ChangeNotifierProvider(
         create: (_) => FontType(),
-        child: const DynamicFontSize()),
+        child: const DropDownDemo()),
     );
   }
 }

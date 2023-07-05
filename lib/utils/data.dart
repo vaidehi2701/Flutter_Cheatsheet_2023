@@ -70,3 +70,29 @@ final iconTextTabs = [
       label: 'Profile',
     ),
   ];
+
+  class Model {
+  final String id;
+  final String name;
+
+  Model({required this.id, required this.name});
+}
+
+
+List<Model> models = [
+  Model(id: '12', name: 'Vaidehi'),
+  Model(id: '34', name: 'John'),
+  Model(id: '56', name: 'Emily'),
+  // Add more models as needed
+];
+
+final List<String> fruits = [
+    '🍎 Apple',
+    '🍋 Mango',
+    '🍌 Banana',
+    '🍉 Watermelon',
+    '🍇 Grapes',
+    '🍓 Strawberry',
+    '🍒 Cherries',
+    '🍑 Peach',
+  ];
