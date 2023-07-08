@@ -1,15 +1,18 @@
-# Flutter Widget Util 2023
 
-Welcome to the All-in-One Flutter Widgets repository! This repository aims to provide a comprehensive collection of various widgets and extensions to enhance your Flutter development experience and it inncluding the latest 3.10 update.🚀✨
+# Flutter CheatSheet 2023
+
+Welcome to the All-in-One Flutter Widgets repository or Flutter CheatSheet! This repository aims to provide a comprehensive collection of various widgets and extensions to enhance your Flutter development experience and it inncluding the latest 3.10 update.🚀✨
 
 ## Features
 
 - **10 Types of Tab Bar:** Explore different tab bar implementations to add versatile navigation options to your Flutter apps.
-- **Extensions Galore:** Discover a set of useful extensions for Flutter to simplify and streamline your code.
+- **8 Types of Sliders:** Explore different Slider implementations to add versatile experiance to your Flutter apps.
+- **11 Types of Buttons:** Explore different type of button implementations.
+- **6 Types of DropDown:** Explore different types of dropdowns.
+        
+- **Extensions Galore:** I believe in making your Flutter development experience smoother, which is why i have included a set of useful extensions for String,Integer,date&time and more for your convenience. These extensions cover various aspects of Flutter development and have been updated to the latest version 3.10.
 
-
-## Demo
-<img src="https://github.com/vaidehi2701/widget_utils_2023/assets/55477266/452b57a1-2cfe-4d07-afca-745ec472d6a9" width="300" height="550" />
+- **Dynamic Font Size:** Explore the code for how to dynamically change the font size in entire Flutter Application.
 
 ## Installation
 
@@ -21,10 +24,6 @@ To use the widgets and extensions from this repository in your Flutter project, 
    ```
 
 2. Import the desired widgets or extensions into your Flutter project by referencing the appropriate files.
-
-## Extensions
-
-I believe in making your Flutter development experience smoother, which is why i have included a set of useful extensions for String,Integer,date&time and more for your convenience. These extensions cover various aspects of Flutter development and have been updated to the latest version 3.10.
 
 ## Contributions
 
@@ -44,3 +43,12 @@ Happy Fluttering! 💙💙💙
 
 
 <a href="https://www.buymeacoffee.com/vaidehishah" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="60" width="300"></a>
+
+
+## Demo
+<img src="https://github.com/vaidehi2701/widget_utils_2023/assets/55477266/452b57a1-2cfe-4d07-afca-745ec472d6a9" width="300" height="550" />
+<img src="https://github.com/vaidehi2701/Flutter_Cheatsheet_2023/assets/55477266/9d02907f-1d2a-4bd6-b4cc-6e7692fe48c3" width="300" height="550" />
+<img src="https://github.com/vaidehi2701/Flutter_Cheatsheet_2023/assets/55477266/e62edf62-319b-4cbd-aaf8-b1877d0b1ccf" width="300" height="550" />
+<img src="https://github.com/vaidehi2701/Flutter_Cheatsheet_2023/assets/55477266/8114a714-dd26-47a0-9236-680732b39367" width="300" height="550" />
+
+<video src='https://github.com/vaidehi2701/Flutter_Cheatsheet_2023/assets/55477266/e1029e57-6ee9-4dca-b83c-30a53e7b9fdc' width="70" height="100"/>
