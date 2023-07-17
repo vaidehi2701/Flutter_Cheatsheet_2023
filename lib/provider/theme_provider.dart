@@ -22,6 +22,7 @@ class ThemeDataCollection {
 
   static ThemeData _getThemeData(MaterialColor color) {
     return ThemeData(
+      useMaterial3: true,
       primarySwatch: color,
       fontFamily: GoogleFonts.poppins().fontFamily,
     );
