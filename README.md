@@ -9,10 +9,13 @@ Welcome to the All-in-One Flutter Widgets repository or Flutter CheatSheet! This
 - **8 Types of Sliders:** Explore different Slider implementations to add versatile experiance to your Flutter apps.
 - **11 Types of Buttons:** Explore different type of button implementations.
 - **6 Types of DropDown:** Explore different types of dropdowns.
+- **2 Types of Stepper:** Explore different types of steppers-basic one and one with help of external package.
         
 - **Extensions Galore:** I believe in making your Flutter development experience smoother, which is why i have included a set of useful extensions for String,Integer,date&time and more for your convenience. These extensions cover various aspects of Flutter development and have been updated to the latest version 3.10.
 
 - **Dynamic Font Size:** Explore the code for how to dynamically change the font size in entire Flutter Application.
+
+- **Custom Themeing:** Explore the code for how to dynamically apply custom multithemeing in flutter application.
 
 ## Installation
 
@@ -45,10 +48,7 @@ Happy Fluttering! 💙💙💙
 <a href="https://www.buymeacoffee.com/vaidehishah" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="60" width="300"></a>
 
 
-## Demo
-<img src="https://github.com/vaidehi2701/widget_utils_2023/assets/55477266/452b57a1-2cfe-4d07-afca-745ec472d6a9" width="300" height="550" />
-<img src="https://github.com/vaidehi2701/Flutter_Cheatsheet_2023/assets/55477266/9d02907f-1d2a-4bd6-b4cc-6e7692fe48c3" width="300" height="550" />
-<img src="https://github.com/vaidehi2701/Flutter_Cheatsheet_2023/assets/55477266/e62edf62-319b-4cbd-aaf8-b1877d0b1ccf" width="300" height="550" />
-<img src="https://github.com/vaidehi2701/Flutter_Cheatsheet_2023/assets/55477266/8114a714-dd26-47a0-9236-680732b39367" width="300" height="550" />
+## Demo!!!
 
-<video src='https://github.com/vaidehi2701/Flutter_Cheatsheet_2023/assets/55477266/e1029e57-6ee9-4dca-b83c-30a53e7b9fdc' width="70" height="100"/>
+<img src="https://github.com/vaidehi2701/Flutter_Cheatsheet_2023/assets/55477266/a0a53675-ba6d-490c-adb4-f05b874f543c" width="1000" height="550" />
+
