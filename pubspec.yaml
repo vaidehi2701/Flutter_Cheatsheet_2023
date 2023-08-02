@@ -39,6 +39,8 @@ dependencies:
   intl: 
   provider:
   easy_stepper: ^0.7.2
+  animated_theme_switcher:
+  
 
 dev_dependencies:
   flutter_test:
