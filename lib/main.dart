@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:widget_utils/provider/font_size_provider.dart';
+import 'package:widget_utils/provider/password_provider.dart';
 import 'package:widget_utils/provider/theme_provider.dart';
-import 'package:widget_utils/ui/extra/basic_stepper.dart';
-import 'package:widget_utils/ui/screens/custom_app_theme.dart';
-import 'package:widget_utils/ui/widgets/stepper.dart';
+import 'package:widget_utils/ui/screens/password_validator.dart';
 
 void main() {
   runApp(
@@ -12,6 +11,7 @@ void main() {
       providers: [
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
         ChangeNotifierProvider(create: (_) => FontType()),
+        ChangeNotifierProvider(create: (_) => PasswordStrengthProvider()),
       ],
       child: const MyApp(),
     ),
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter CheatSheet 2023',
         theme: themeProvider.themeData,
-        home: const StepperDemo(),
+        home: const PwdValidationExample(),
       );
     });
   }

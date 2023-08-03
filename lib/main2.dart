@@ -3,8 +3,9 @@ import 'dart:ui';
 import 'package:animated_theme_switcher/animated_theme_switcher.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
+import 'package:widget_utils/provider/theme_config.dart';
 
-import '../lib/ui/widgets/theme_config.dart';
+
 
 void main() => runApp(const MyApp());
 

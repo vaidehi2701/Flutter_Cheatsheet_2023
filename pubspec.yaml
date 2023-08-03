@@ -40,6 +40,7 @@ dependencies:
   provider:
   easy_stepper: ^0.7.2
   animated_theme_switcher:
+  http:
   
 
 dev_dependencies:
