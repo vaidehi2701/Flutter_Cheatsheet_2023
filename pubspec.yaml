@@ -41,6 +41,8 @@ dependencies:
   easy_stepper: ^0.7.2
   animated_theme_switcher:
   http:
+  scratcher: ^2.3.0
+  confetti: ^0.7.0
   
 
 dev_dependencies:
