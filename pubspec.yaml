@@ -35,7 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  google_fonts: ^5.1.0
+  google_fonts: ^4.0.0
   intl: 
   provider:
   easy_stepper: ^0.7.2
@@ -43,6 +43,7 @@ dependencies:
   http:
   scratcher: ^2.3.0
   confetti: ^0.7.0
+  audioplayers: ^4.1.0
   
 
 dev_dependencies:
@@ -71,30 +72,16 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/audio/
   #   - images/a_dot_ham.jpeg
 
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware
-
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
-
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Lovina
+      fonts:
+        - asset: assets/fonts/BeautifulLovina-Regular.ttf
+    - family: CoralPen
+      fonts:
+        - asset: assets/fonts/CoralPen.ttf
+    - family: Campton_Light
+      fonts:
+        - asset: assets/fonts/Campton_Light.ttf

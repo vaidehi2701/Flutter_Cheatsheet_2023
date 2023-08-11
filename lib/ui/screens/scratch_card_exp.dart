@@ -45,6 +45,7 @@ class _ScratchCardExampleState extends State<ScratchCardExample> {
                 Column(
                   children: [
                     ConfettiWidget(
+                      
                       blastDirectionality: BlastDirectionality.explosive,
                       confettiController: _controller,
                       particleDrag: 0.05,
