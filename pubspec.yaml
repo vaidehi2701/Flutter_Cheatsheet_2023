@@ -44,6 +44,8 @@ dependencies:
   scratcher: ^2.3.0
   confetti: ^0.7.0
   audioplayers: ^4.1.0
+  animated_text_kit: ^4.2.2
+  showcaseview: ^2.0.3
   
 
 dev_dependencies:

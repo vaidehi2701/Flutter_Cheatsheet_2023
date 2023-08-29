@@ -4,6 +4,7 @@ class BasicStepper extends StatefulWidget {
   const BasicStepper({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _BasicStepperState createState() => _BasicStepperState();
 }
 

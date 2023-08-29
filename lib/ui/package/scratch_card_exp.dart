@@ -6,6 +6,7 @@ class ScratchCardExample extends StatefulWidget {
   const ScratchCardExample({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _ScratchCardExampleState createState() => _ScratchCardExampleState();
 }
 
