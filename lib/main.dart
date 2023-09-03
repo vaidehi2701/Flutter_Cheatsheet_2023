@@ -3,11 +3,15 @@ import 'package:provider/provider.dart';
 import 'package:widget_utils/provider/font_size_provider.dart';
 import 'package:widget_utils/provider/password_provider.dart';
 import 'package:widget_utils/provider/theme_provider.dart';
-import 'package:widget_utils/ui/package/showcase.dart';
-import 'package:widget_utils/ui/screens/indian_flag_animation.dart';
-import 'package:widget_utils/ui/screens/music_list.dart';
+import 'package:widget_utils/ui/package/scratch_card_exp.dart';
+import 'package:widget_utils/ui/screens/burger.dart';
 
 void main() {
+  ErrorWidget.builder = (detail) => MaterialApp(
+          home: Scaffold(
+        backgroundColor: Colors.cyan,
+        body: Center(child: Text(detail.exception.toString())),
+      ));
   runApp(
     MultiProvider(
       providers: [
@@ -15,8 +19,7 @@ void main() {
         ChangeNotifierProvider(create: (_) => FontType()),
         ChangeNotifierProvider(create: (_) => PasswordStrengthProvider()),
       ],
-      // child: const MyApp(),
-      child: const ShowscaseDemo(),
+      child: const MyApp(),
     ),
   );
 }
@@ -36,7 +39,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter CheatSheet 2023',
         theme: themeProvider.themeData,
-        home: const IndianFlag(),
+        home: const ImageSizeAnimation(),
       );
     });
   }
