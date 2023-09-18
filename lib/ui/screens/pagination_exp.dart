@@ -95,8 +95,8 @@ class _PaginationExampleState extends State<PaginationExample> {
       });
     } catch (err) {
       var snackBar =
-            const SnackBar(content: Text('Oops!! Something went wrong!'));
-        ScaffoldMessenger.of(context).showSnackBar(snackBar);
+          const SnackBar(content: Text('Oops!! Something went wrong!'));
+      ScaffoldMessenger.of(context).showSnackBar(snackBar);
     }
 
     setState(() {
@@ -125,12 +125,12 @@ class _PaginationExampleState extends State<PaginationExample> {
                 Expanded(
                   child: ListView.builder(
                     controller: _controller,
-                    itemCount: _posts.length,
+                    itemCount: 1,
                     itemBuilder: (_, index) => Card(
                       margin: const EdgeInsets.symmetric(
                           vertical: 8, horizontal: 10),
                       child: ListTile(
-                        title: Text(_posts[index]['title']),
+                        title: Text(_posts[index]['titl']),
                         subtitle: Text(_posts[index]['body']),
                       ),
                     ),

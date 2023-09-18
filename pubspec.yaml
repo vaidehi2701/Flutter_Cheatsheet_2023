@@ -74,7 +74,9 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/images/parallerX/
     - assets/audio/
+    - assets/gif/
   #   - images/a_dot_ham.jpeg
 
   fonts:
