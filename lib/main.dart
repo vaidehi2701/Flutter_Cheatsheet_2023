@@ -1,68 +1,40 @@
 import 'package:flutter/material.dart';
-import 'package:widget_utils/ui/screens/parallerx_effect.dart';
-
-/// Flutter code sample for [ErrorWidget].
+import 'package:provider/provider.dart';
+import 'package:widget_utils/provider/font_size_provider.dart';
+import 'package:widget_utils/provider/password_provider.dart';
+import 'package:widget_utils/provider/theme_provider.dart';
+import 'package:widget_utils/ui/screens/polariod_photo.dart';
 
 void main() {
-  // Set the ErrorWidget's builder before the app is started.
-  ErrorWidget.builder = (FlutterErrorDetails details) {
-    
-    //Custom error Widget Desgin
-    return Container(
-      alignment: Alignment.center,
-      child: Text(
-        'Error!\n${details.exception}',
-        style: const TextStyle(color: Colors.yellow, fontSize: 22),
-        textAlign: TextAlign.center,
-        textDirection: TextDirection.ltr,
-      ),
-    );
-  };
-
-  // Start the app.
-  runApp(const ExampleParallax());
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => ThemeProvider()),
+        ChangeNotifierProvider(create: (_) => FontType()),
+        ChangeNotifierProvider(create: (_) => PasswordStrengthProvider()),
+      ],
+      child: const MyApp(),
+    ),
+  );
 }
 
-class ErrorWidgetExampleApp extends StatefulWidget {
-  const ErrorWidgetExampleApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
-  @override
-  State<ErrorWidgetExampleApp> createState() => _ErrorWidgetExampleAppState();
-}
-
-class _ErrorWidgetExampleAppState extends State<ErrorWidgetExampleApp> {
-  bool throwError = false;
+  //devDiariesWithVee on Instagram
+  //devDiariesWithVee on Youtube
+  //vaidehi2701 on Github/Linkedin
 
   @override
   Widget build(BuildContext context) {
-    if (throwError) {
-      // Since the error widget is only used during a build, in this contrived example,
-      // we purposely throw an exception in a build function.
-      return Builder(
-        builder: (BuildContext context) {
-          throw Exception('oh no, an error');
-        },
-      );
-    } else {
+    return Consumer<ThemeProvider>(
+        builder: (BuildContext context, themeProvider, widget) {
       return MaterialApp(
-        home: Scaffold(
-          appBar: AppBar(title: const Text('ErrorWidget Sample')),
-          body: Center(
-            child: TextButton(
-                onPressed: () {
-                  setState(() {
-                    throwError = true;
-                  });
-                },
-                child: const Text(
-                  'Throw Explicit Error from\n DevDiariesWithVee',
-                  textAlign: TextAlign.center,
-                  style:
-                      TextStyle(fontSize: 20, height: 1.5, color: Colors.red),
-                )),
-          ),
-        ),
+        debugShowCheckedModeBanner: false,
+        title: 'Flutter CheatSheet 2023',
+        theme: themeProvider.themeData,
+        home: const PolariodPhoto(),
       );
-    }
+    });
   }
 }
